@@ -5,12 +5,13 @@ public class Truck1 {
     int noOfWheels;
 
     // static Truck1 t;
+    //variable count to hold the object creation count
     static int count;
 
-    //array
+    //array creation of Truck1 type
     static Truck1[] tr=new Truck1[3];
 
-    
+    //private constructor
     private Truck1(String name, int noOfWheels)
     {
         this.name=name;
@@ -19,7 +20,7 @@ public class Truck1 {
 
     public static Truck1 details(String name, int noOfWheels)
     {
-        
+        //to only create 3 object
         if(count < 3)
         {
             tr[count] = new Truck1(name, noOfWheels);
@@ -29,7 +30,7 @@ public class Truck1 {
             // System.out.println("Count: "+count);  //printing incremented count value
             
             //returning the object type data stored inside the array
-            return tr[count-1]; //tr[0], tr[1], tr[2], ..out of if 
+            return tr[count-1]; //tr[0], tr[1], tr[2] ...out of if 
         }
         
         else
