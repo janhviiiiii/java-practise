@@ -17,7 +17,7 @@ public class TruckDriver1 {
 
         Truck1 t4=Truck1.details("Ash", 6); //will store address.
         System.out.println("address: "+t4);
-        // System.out.println("Name: "+t4.name+ "\nNo of wheels: "+t4.noOfWheels);
+        // System.out.println("Name: "+t4.name+ "\nNo of wheels: "+t4.noOfWheels); //can't use this bc-> null.name->NullPointerException will occur.
     }
     
 }

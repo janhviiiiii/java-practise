@@ -31,6 +31,7 @@ public class Truck1 {
             
             //returning the object type data stored inside the array
             return tr[count-1]; //tr[0], tr[1], tr[2] ...out of if 
+
         }
         
         else
