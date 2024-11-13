@@ -1,4 +1,4 @@
-package has_a_relationship.lazy_instantiation;
+package has_a_relationship.one_to_one.lazy_instantiation;
 
 public class CarDriver {
 
