@@ -2,27 +2,26 @@ package looping;
 
 import java.util.Scanner;
 
-public class Table {
-    public static void tab(int a)
-    {
-        int p=1;
+public class table {
+    @SuppressWarnings("resource")
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in); // System.in is a standard input stream
+        System.out.print("Enter a number: ");
+        int num;
+        num = sc.nextInt();
+        System.out.println("Table of " + num);
 
-        for(int i=1; i<=10; i++)
-        {
-            p=a*i;
-            System.out.println(a+" * "+ i + " = "+p);
+        // for loop
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(num + "*" + i + "=" + num * i);
         }
 
-        // return p;
-    }
+        // while loop
+        // int i = 1;
+        // while (i <= 10) {
+        // System.out.println(num + "*" + i + "=" + num * i);
+        // i++;
+        // }
 
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num=sc.nextInt();
-        System.out.print("Table of "+num);
-        System.out.println();
-        tab(num);
-        sc.close();
     }
 }
