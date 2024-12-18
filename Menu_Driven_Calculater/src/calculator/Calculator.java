@@ -57,4 +57,9 @@ public class Calculator {
 		return result;
 	}
 
+	public void reset() {
+		arr = new double[5]; //reset array
+		size = 0; //reset size
+	}
+
 }
