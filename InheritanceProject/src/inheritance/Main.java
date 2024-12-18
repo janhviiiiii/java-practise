@@ -13,7 +13,7 @@ public class Main {
 		System.out.println();
 
 		// UPI Payment
-		UPIPayment upiPayment = new UPIPayment();
+		// UPIPayment upiPayment = new UPIPayment();
 //		upiPayment.amount
 	}
 
