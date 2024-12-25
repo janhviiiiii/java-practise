@@ -1,5 +1,4 @@
 package car_engine_selection.view;
-
 import java.util.Scanner;
 
 import car_engine_selection.controller.Controller;
